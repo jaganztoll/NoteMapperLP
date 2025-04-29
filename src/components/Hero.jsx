@@ -1,5 +1,7 @@
 import React from "react";
 import Device from "../assets/device.png";
+import { BiLogoPlayStore } from "react-icons/bi";
+import { FaApple } from "react-icons/fa6";
 
 function Hero() {
   return (
@@ -15,12 +17,22 @@ function Hero() {
           <p className="text-2xl sm:text-3xl md:text-4xl mb-8">
             with NoteMapper
           </p>
+          <div className="flex sm:flex-row flex-col space-y-4 sm:space-y-0 sm:space-x-4 mb-8 sm:mb-8">
+            <button className="bg-[var(--text)] text-[var(--primary)] font-medium font-inter px-6 py-4 rounded-xl hover:opacity-90 transition flex items-center justify-center sm:w-auto w-full">
+              <BiLogoPlayStore className="inline w-8 h-8 sm:w-10 sm:h-10 mr-2" />
+              Google Play
+            </button>
+            <button className="bg-[var(--text)] text-[var(--primary)] font-medium font-inter px-6 py-4 rounded-xl hover:opacity-90 transition flex items-center justify-center sm:w-auto w-full">
+              <FaApple className="inline w-8 h-8 sm:w-10 sm:h-10 mr-2" />
+              App Store
+            </button>
+          </div>
         </div>
         <div className="md:w-1/2 flex justify-center items-center mb-6 md:mb-0">
           <img
             src={Device}
             alt="Device"
-            className="w-64 h-128 md:w-76 md:h-152 transform md:rotate-[15deg] transition-all duration-500"
+            className="w-64 h-128 sm:w-76 sm:h-152 md:w-80 md:h-160 transform md:rotate-[15deg] transition-all duration-500"
           />
         </div>
       </div>
