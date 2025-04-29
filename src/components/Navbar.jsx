@@ -1,23 +1,109 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 import Logo from "../assets/notemapperdark.png";
+import { HiBars3, HiXMark } from "react-icons/hi2";
 
 function Navbar() {
+  const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav class="w-full p-4 flex justify-between items-center bg-[var(--accent)] text-[var(--text)]">
-      <div>
-        <img src={Logo} alt="Logo" class="h-10 w-auto select-none" />
+    <nav
+      className={`fixed top-0 w-full z-50 py-12 transition-all duration-300 ${
+        scrolled ? "bg-[var(--accent-transparent)] shadow-md" : "bg-transparent"
+      } text-[var(--text)] selection:bg-[var(--accent-transparent)]`}
+    >
+      <div className="w-full max-w-screen-xl mx-auto flex justify-between items-center px-6 md:px-10 lg:px-20">
+        {/* Logo */}
+        <div>
+          <Link
+            to="hero"
+            smooth={true}
+            duration={500}
+            className="cursor-pointer flex items-center space-x-2"
+          >
+            <img src={Logo} alt="Logo" className="h-10 w-auto select-none" />
+            <h1 className="text-2xl font-bold text-[var(--text)] font-quicksand">
+              NoteMapper
+            </h1>
+          </Link>
+        </div>
+
+        {/* Desktop Navigation */}
+        <div className="hidden md:flex space-x-6 items-center">
+          <Link
+            to="body"
+            smooth={true}
+            duration={500}
+            className="hover:underline cursor-pointer"
+          >
+            About
+          </Link>
+          <Link
+            to="footer"
+            smooth={true}
+            duration={500}
+            className="hover:underline cursor-pointer"
+          >
+            Contact
+          </Link>
+        </div>
+
+        {/* Burger Icon */}
+        <div className="md:hidden">
+          <button onClick={() => setMenuOpen(!menuOpen)}>
+            {menuOpen ? (
+              <HiXMark className="text-3xl" />
+            ) : (
+              <HiBars3 className="text-3xl" />
+            )}
+          </button>
+        </div>
       </div>
-      <div class="space-x-4">
-        <a href="#hero" class="hover:underline">
-          Home
-        </a>
-        <a href="#body" class="hover:underline">
-          About
-        </a>
-        <a href="#footer" class="hover:underline">
-          Contact
-        </a>
-      </div>
+
+      {/* Mobile Menu */}
+      {menuOpen && (
+        <div className="absolute top-full right-0 left-0 flex flex-col space-y-4 bg-[var(--accent)] p-6 rounded-md shadow-md md:hidden">
+          <Link
+            to="hero"
+            smooth={true}
+            duration={500}
+            className="hover:underline cursor-pointer"
+            onClick={() => setMenuOpen(false)}
+          >
+            Home
+          </Link>
+          <Link
+            to="body"
+            smooth={true}
+            duration={500}
+            className="hover:underline cursor-pointer"
+            onClick={() => setMenuOpen(false)}
+          >
+            About
+          </Link>
+          <Link
+            to="footer"
+            smooth={true}
+            duration={500}
+            className="hover:underline cursor-pointer"
+            onClick={() => setMenuOpen(false)}
+          >
+            Contact
+          </Link>
+        </div>
+      )}
     </nav>
   );
 }
