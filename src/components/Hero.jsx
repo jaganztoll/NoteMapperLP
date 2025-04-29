@@ -17,12 +17,12 @@ function Hero() {
           <p className="text-2xl sm:text-3xl md:text-4xl mb-8">
             with NoteMapper
           </p>
-          <div className="flex sm:flex-row flex-col sm:space-x-4 space-y-4 sm:space-y-0 mb-8 sm:mb-8">
+          <div className="flex sm:flex-row flex-wrap sm:space-x-4 space-y-2 sm:space-y-0 mb-4 sm:mb-8">
             <button className="bg-[var(--text)] text-[var(--primary)] font-medium font-inter px-6 py-4 rounded-xl hover:opacity-90 transition flex items-center justify-center sm:w-auto w-32 h-16">
               <BiLogoPlayStore className="inline w-8 h-8 sm:w-10 sm:h-10 mr-2" />
               Google Play
             </button>
-            <button className="bg-[var(--text)] text-[var(--primary)] font-medium font-inter px-6 py-4 rounded-xl hover:opacity-90 transition flex items-center justify-center sm:w-auto w-32 h-16">
+            <button className="bg-[var(--text)] text-[var(--primary)] font-medium font-inter px-6 py-4 rounded-xl hover:opacity-90 transition flex items-center justify-center sm:w-auto w-32 h-16 ml-6">
               <FaApple className="inline w-8 h-8 sm:w-10 sm:h-10 mr-2" />
               App Store
             </button>
