@@ -5,7 +5,10 @@ import { FaInstagram } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer class="bg-[var(--primary)] var(--text) py-6 mt-16" id="footer">
+    <footer
+      class="relative z-20 bg-[var(--primary)] text-[var(--text)] font-inter py-6 mt-16"
+      id="footer"
+    >
       <div class="text-center">
         <FaXTwitter class="inline" />
         <FaFacebookF class="inline" />

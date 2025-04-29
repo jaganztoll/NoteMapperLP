@@ -3,9 +3,12 @@ import Icon from "../assets/icon.png";
 import { BiLogoPlayStore } from "react-icons/bi";
 import { FaApple } from "react-icons/fa6";
 
-function Body() {
+function Download() {
   return (
-    <section className="py-16 px-4" id="body">
+    <section
+      className="relative z-20 min-h-screen py-16 px-4 bg-[var(--primary)] text-[var(--text)] font-inter"
+      id="download"
+    >
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-center">
         <img
           src={Icon}
@@ -14,16 +17,16 @@ function Body() {
         />
 
         <div className="md:ml-8 flex flex-col justify-start items-center md:items-start">
-          <h1 className="text-3xl md:text-4xl font-semibold mb-6 text-center md:text-left">
+          <h1 className="text-3xl md:text-4xl font-semibold font-inter mb-6 text-center md:text-left">
             YOUR MIND. YOUR MAP. YOUR MEMORIES.
           </h1>
 
           <div className="flex space-x-4">
-            <button className="bg-[var(--accent)] text-[var(--text)] font-medium px-6 py-4 rounded-xl hover:opacity-90 transition">
+            <button className="bg-[var(--accent)] text-[var(--text)] font-medium font-inter px-6 py-4 rounded-xl hover:opacity-90 transition">
               <BiLogoPlayStore className="inline w-8 h-8 md:w-10 md:h-10 mr-2" />
               Google Play
             </button>
-            <button className="bg-[var(--accent)] text-[var(--text)] font-medium px-6 py-4 rounded-xl hover:opacity-90 transition">
+            <button className="bg-[var(--accent)] text-[var(--text)] font-medium font-inter px-6 py-4 rounded-xl hover:opacity-90 transition">
               <FaApple className="inline w-8 h-8 md:w-10 md:h-10 mr-2" />
               App Store
             </button>
@@ -34,4 +37,4 @@ function Body() {
   );
 }
 
-export default Body;
+export default Download;

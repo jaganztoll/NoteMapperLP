@@ -4,6 +4,8 @@
 @layer base {
   :root {
     --font-quicksand: 'Quicksand', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
     --text: #353535;
     --primary: #ecebf3;
     --secondary: #4c5454;
@@ -13,6 +15,14 @@
 
   .font-quicksand {
     font-family: var(--font-quicksand);
+  }
+
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
   }
 
   .bg-fixed {

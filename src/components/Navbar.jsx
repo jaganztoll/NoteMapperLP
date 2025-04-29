@@ -20,7 +20,7 @@ function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 py-12 transition-all duration-300 ${
+      className={`fixed top-0 w-full z-50 py-4 transition-all duration-300 ${
         scrolled ? "bg-[var(--accent-transparent)] shadow-md" : "bg-transparent"
       } text-[var(--text)] selection:bg-[var(--accent-transparent)]`}
     >
@@ -34,21 +34,29 @@ function Navbar() {
             className="cursor-pointer flex items-center space-x-2"
           >
             <img src={Logo} alt="Logo" className="h-10 w-auto select-none" />
-            <h1 className="text-2xl font-bold text-[var(--text)] font-quicksand">
+            <h1 className="text-2xl font-bold text-[var(--text)] font-inter">
               NoteMapper
             </h1>
           </Link>
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex space-x-6 items-center">
+        <div className="hidden md:flex space-x-6 items-center font-inter">
           <Link
-            to="body"
+            to="about"
             smooth={true}
             duration={500}
             className="hover:underline cursor-pointer"
           >
             About
+          </Link>
+          <Link
+            to="download"
+            smooth={true}
+            duration={500}
+            className="hover:underline cursor-pointer"
+          >
+            Download
           </Link>
           <Link
             to="footer"
@@ -76,22 +84,22 @@ function Navbar() {
       {menuOpen && (
         <div className="absolute top-full right-0 left-0 flex flex-col space-y-4 bg-[var(--accent)] p-6 rounded-md shadow-md md:hidden">
           <Link
-            to="hero"
-            smooth={true}
-            duration={500}
-            className="hover:underline cursor-pointer"
-            onClick={() => setMenuOpen(false)}
-          >
-            Home
-          </Link>
-          <Link
-            to="body"
+            to="about"
             smooth={true}
             duration={500}
             className="hover:underline cursor-pointer"
             onClick={() => setMenuOpen(false)}
           >
             About
+          </Link>
+          <Link
+            to="download"
+            smooth={true}
+            duration={500}
+            className="hover:underline cursor-pointer"
+            onClick={() => setMenuOpen(false)}
+          >
+            Download
           </Link>
           <Link
             to="footer"
