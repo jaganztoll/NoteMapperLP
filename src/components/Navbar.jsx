@@ -24,7 +24,7 @@ function Navbar() {
         scrolled ? "bg-[var(--accent-transparent)] shadow-md" : "bg-transparent"
       } text-[var(--text)] selection:bg-[var(--accent-transparent)]`}
     >
-      <div className="w-full max-w-screen-xl mx-auto flex justify-between items-center px-6 md:px-10 lg:px-20">
+      <div className="w-full max-w-screen-2xl mx-auto flex justify-between items-center px-6 md:px-10 lg:px-20">
         {/* Logo */}
         <div>
           <Link

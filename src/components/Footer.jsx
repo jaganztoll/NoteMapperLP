@@ -13,7 +13,7 @@ function Footer() {
         <FaXTwitter class="inline" />
         <FaFacebookF class="inline" />
         <FaInstagram class="inline" />
-        <p>© {new Date().getFullYear()} NoteMapper by Julian Gruber</p>
+        <p>© {new Date().getFullYear()} NoteMapper Julian Gruber</p>
       </div>
     </footer>
   );

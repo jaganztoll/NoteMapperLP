@@ -11,29 +11,44 @@ function Hero() {
     >
       <div className="flex flex-col md:flex-row justify-center items-center w-full h-full max-w-screen-xl mx-auto lg:px-20 mt-8 sm:mt-8">
         <div className="md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left">
-          <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-0 sm:mb-4">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-2 sm:mb-8">
             Explore the World
           </h1>
-          <p className="text-2xl sm:text-3xl md:text-4xl mb-2 sm:mb-6">
+          <p className="text-xl sm:text-2xl md:text-3xl mb-6 sm:mb-12">
             with NoteMapper
           </p>
 
-          <div className="flex sm:flex-row flex-wrap sm:space-x-4 space-y-2 sm:space-y-0 mb-4 sm:mb-8">
-            <button className="bg-[var(--text)] text-[var(--primary)] font-medium font-inter px-6 py-4 rounded-xl hover:opacity-90 transition flex items-center justify-center sm:w-auto w-32 h-16">
-              <BiLogoPlayStore className="inline w-8 h-8 sm:w-10 sm:h-10 mr-2" />
+          <div className="flex flex-row gap-6 mb-6 sm:mb-8">
+            <button
+              className="bg-[var(--text)] text-[var(--primary)] font-medium font-inter 
+    w-36 h-8 text-xs 
+    sm:w-46 sm:h-16 sm:text-base 
+    md:w-50 md:h-18 md:text-lg 
+    px-4 py-2 sm:px-6 sm:py-4 
+    rounded-xl hover:opacity-90 transition flex items-center justify-center"
+            >
+              <BiLogoPlayStore className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mr-2" />
               Google Play
             </button>
-            <button className="bg-[var(--text)] text-[var(--primary)] font-medium font-inter px-6 py-4 rounded-xl hover:opacity-90 transition flex items-center justify-center sm:w-auto w-32 h-16 ml-6">
-              <FaApple className="inline w-8 h-8 sm:w-10 sm:h-10 mr-2" />
+
+            <button
+              className="bg-[var(--text)] text-[var(--primary)] font-medium font-inter 
+    w-36 h-8 text-xs 
+    sm:w-46 sm:h-16 sm:text-base 
+    md:w-50 md:h-18 md:text-lg 
+    px-4 py-2 sm:px-6 sm:py-4 
+    rounded-xl hover:opacity-90 transition flex items-center justify-center"
+            >
+              <FaApple className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mr-2" />
               App Store
             </button>
           </div>
         </div>
-        <div className="md:w-1/2 flex justify-center items-center mb-6 md:mb-0">
+        <div className="md:w-1/2 flex justify-center items-center mb-6 md:mb-0 perspective-[1000px]">
           <img
             src={Device}
             alt="Device"
-            className="w-48 sm:w-64 h-96 sm:h-128 md:w-80 md:h-160 transform sm:rotate-[10deg] md:rotate-[15deg] transition-all duration-500"
+            className="w-48 sm:w-64 h-96 sm:h-128 md:w-80 md:h-160 transform sm:rotate-[10deg] md:rotate-[15deg] -rotate-y-4 rotate-x-2 transition-all duration-500"
           />
         </div>
       </div>
