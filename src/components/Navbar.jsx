@@ -13,18 +13,25 @@ function Navbar() {
     };
 
     window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 py-4 transition-all duration-300 ${
-        scrolled ? "bg-[var(--accent-transparent)] shadow-md" : "bg-transparent"
-      } text-[var(--text)] selection:bg-[var(--accent-transparent)]`}
+      className={`fixed top-0 w-full z-50 py-4 transition-all duration-300
+                  ${
+                    scrolled
+                      ? "bg-[var(--accent-transparent)] shadow-md"
+                      : "bg-transparent"
+                  } 
+                  text-[var(--text)] selection:bg-[var(--accent-transparent)]`}
     >
-      <div className="w-full max-w-screen-2xl mx-auto flex justify-between items-center px-6 md:px-10 lg:px-20">
+      {/* Container */}
+      <div
+        className="w-full max-w-screen-2xl mx-auto 
+                   flex justify-between items-center 
+                   px-6 md:px-10 lg:px-20"
+      >
         {/* Logo */}
         <div>
           <Link
@@ -82,7 +89,12 @@ function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-full right-0 left-0 flex flex-col space-y-4 bg-[var(--accent)] p-6 rounded-md shadow-md md:hidden">
+        <div
+          className="absolute top-full left-0 right-0 
+                     flex flex-col space-y-4 
+                     bg-[var(--accent)] p-6 
+                     rounded-md shadow-md md:hidden"
+        >
           <Link
             to="about"
             smooth={true}
