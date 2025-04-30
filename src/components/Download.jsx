@@ -19,43 +19,57 @@ function Download() {
         <img
           src={Icon}
           alt="Icon"
-          className="w-64 h-64 mb-6 md:mb-0 rounded-4xl"
+          className="w-32 h-32 
+                     sm:w-46 sm:h-46
+                     md:w-48 md:h-48 
+                     lg:w-64 lg:h-64 
+                     mb-6 md:mb-0 rounded-4xl"
         />
 
         {/* Text & Buttons */}
         <div
-          className="md:ml-8 
+          className="md:ml-12 
                      flex flex-col justify-start items-center md:items-start"
         >
-          <h1
-            className="text-3xl md:text-4xl font-semibold font-inter 
+          <h2
+            className="text-xl
+                       sm:text-2xl 
+                       md:text-3xl 
+                       lg:text-4xl
+                       font-semibold font-inter 
                        mb-6 text-center md:text-left"
           >
             YOUR MIND. YOUR MAP. YOUR MEMORIES.
-          </h1>
+          </h2>
 
-          <div className="flex space-x-4">
+          <div className="flex flex-row gap-6">
             {/* Google Play Button */}
             <button
               className="bg-[var(--accent)] text-[var(--text)] 
                          font-medium font-inter 
-                         px-6 py-4 rounded-md 
-                         hover:opacity-90 transition 
+                         w-36 h-12 text-xs 
+                         sm:w-46 sm:h-16 sm:text-base 
+                         md:w-50 md:h-18 md:text-lg 
+                         px-4 py-2 sm:px-6 sm:py-4 
+                         rounded-md hover:opacity-90 transition 
                          flex items-center justify-center"
             >
-              <BiLogoPlayStore className="w-8 h-8 md:w-10 md:h-10 mr-2" />
+              <BiLogoPlayStore className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mr-2" />
               Google Play
             </button>
 
             {/* App Store Button */}
             <button
-              className="bg-[var(--accent)] text-[var(--text)] 
+              className="bg-[var(--accent)] text-[var(--text)]
                          font-medium font-inter 
-                         px-6 py-4 rounded-md 
-                         hover:opacity-90 transition 
+                         w-36 h-12 text-xs 
+                         sm:w-46 sm:h-16 sm:text-base 
+                         md:w-50 md:h-18 md:text-lg 
+                         px-4 py-2 sm:px-6 sm:py-4 
+                         rounded-md hover:opacity-90 transition 
                          flex items-center justify-center"
             >
-              <FaApple className="w-8 h-8 md:w-10 md:h-10 mr-2" />
+              <FaApple className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mr-2" />
               App Store
             </button>
           </div>

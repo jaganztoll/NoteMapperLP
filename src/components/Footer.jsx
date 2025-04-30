@@ -6,13 +6,13 @@ import { FaInstagram } from "react-icons/fa6";
 function Footer() {
   return (
     <footer
-      class="relative z-20 bg-[var(--primary)] text-[var(--text)] font-inter py-6 mt-16"
+      className="relative z-20 bg-[var(--primary)] text-[var(--text)] font-inter py-6"
       id="footer"
     >
-      <div class="text-center">
-        <FaXTwitter class="inline" />
-        <FaFacebookF class="inline" />
-        <FaInstagram class="inline" />
+      <div className="text-center">
+        <FaXTwitter className="inline" />
+        <FaFacebookF className="inline" />
+        <FaInstagram className="inline" />
         <p>© {new Date().getFullYear()} NoteMapper Julian Gruber</p>
       </div>
     </footer>

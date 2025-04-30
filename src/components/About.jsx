@@ -9,12 +9,12 @@ function About() {
                  px-4 
                  bg-[var(--primary)] text-[var(--text)] font-inter"
     >
-      <h1
+      <h2
         className="text-4xl md:text-6xl 
                    font-bold mb-6"
       >
         About NoteMapper
-      </h1>
+      </h2>
 
       <p
         className="text-lg md:text-2xl 

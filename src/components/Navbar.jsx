@@ -41,9 +41,9 @@ function Navbar() {
             className="cursor-pointer flex items-center space-x-2"
           >
             <img src={Logo} alt="Logo" className="h-10 w-auto select-none" />
-            <h1 className="text-2xl font-bold text-[var(--text)] font-inter">
+            <span className="text-2xl font-bold text-[var(--text)] font-inter">
               NoteMapper
-            </h1>
+            </span>
           </Link>
         </div>
 
