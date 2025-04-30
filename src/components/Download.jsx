@@ -22,11 +22,11 @@ function Download() {
           </h1>
 
           <div className="flex space-x-4">
-            <button className="bg-[var(--accent)] text-[var(--text)] font-medium font-inter px-6 py-4 rounded-xl hover:opacity-90 transition">
+            <button className="bg-[var(--accent)] text-[var(--text)] font-medium font-inter px-6 py-4 rounded-md hover:opacity-90 transition">
               <BiLogoPlayStore className="inline w-8 h-8 md:w-10 md:h-10 mr-2" />
               Google Play
             </button>
-            <button className="bg-[var(--accent)] text-[var(--text)] font-medium font-inter px-6 py-4 rounded-xl hover:opacity-90 transition">
+            <button className="bg-[var(--accent)] text-[var(--text)] font-medium font-inter px-6 py-4 rounded-md hover:opacity-90 transition">
               <FaApple className="inline w-8 h-8 md:w-10 md:h-10 mr-2" />
               App Store
             </button>

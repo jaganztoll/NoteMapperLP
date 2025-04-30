@@ -25,7 +25,7 @@ function Hero() {
     sm:w-46 sm:h-16 sm:text-base 
     md:w-50 md:h-18 md:text-lg 
     px-4 py-2 sm:px-6 sm:py-4 
-    rounded-xl hover:opacity-90 transition flex items-center justify-center"
+    rounded-md hover:opacity-90 transition flex items-center justify-center"
             >
               <BiLogoPlayStore className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mr-2" />
               Google Play
@@ -37,18 +37,18 @@ function Hero() {
     sm:w-46 sm:h-16 sm:text-base 
     md:w-50 md:h-18 md:text-lg 
     px-4 py-2 sm:px-6 sm:py-4 
-    rounded-xl hover:opacity-90 transition flex items-center justify-center"
+    rounded-md hover:opacity-90 transition flex items-center justify-center"
             >
               <FaApple className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mr-2" />
               App Store
             </button>
           </div>
         </div>
-        <div className="md:w-1/2 flex justify-center items-center mb-6 md:mb-0 perspective-[1000px]">
+        <div className="md:w-1/2 flex justify-center items-center mb-6 md:mb-0">
           <img
             src={Device}
             alt="Device"
-            className="w-48 sm:w-64 h-96 sm:h-128 md:w-80 md:h-160 transform sm:rotate-[10deg] md:rotate-[15deg] -rotate-y-4 rotate-x-2 transition-all duration-500"
+            className="w-48 sm:w-64 h-96 sm:h-128 md:w-80 md:h-160 transform sm:rotate-[10deg] md:rotate-[15deg] transition-all duration-500"
           />
         </div>
       </div>
