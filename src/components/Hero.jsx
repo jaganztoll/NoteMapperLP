@@ -9,14 +9,15 @@ function Hero() {
       className="fixed top-0 left-0 w-full min-h-screen z-10 flex flex-col justify-center items-center text-center px-4 sm:px-6 md:px-8 bg-[var(--accent)] text-[var(--text)] font-inter overflow-hidden"
       id="hero"
     >
-      <div className="flex flex-col md:flex-row justify-center items-center w-full h-full max-w-screen-xl mx-auto lg:px-20 mt-16 sm:mt-8">
+      <div className="flex flex-col md:flex-row justify-center items-center w-full h-full max-w-screen-xl mx-auto lg:px-20 mt-8 sm:mt-8">
         <div className="md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left">
-          <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-6">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-0 sm:mb-4">
             Explore the World
           </h1>
-          <p className="text-2xl sm:text-3xl md:text-4xl mb-8">
+          <p className="text-2xl sm:text-3xl md:text-4xl mb-2 sm:mb-6">
             with NoteMapper
           </p>
+
           <div className="flex sm:flex-row flex-wrap sm:space-x-4 space-y-2 sm:space-y-0 mb-4 sm:mb-8">
             <button className="bg-[var(--text)] text-[var(--primary)] font-medium font-inter px-6 py-4 rounded-xl hover:opacity-90 transition flex items-center justify-center sm:w-auto w-32 h-16">
               <BiLogoPlayStore className="inline w-8 h-8 sm:w-10 sm:h-10 mr-2" />
