@@ -5,6 +5,7 @@ import Download from "./components/Download";
 import Footer from "./components/Footer";
 
 import { Element } from "react-scroll";
+import Preview from "./components/Preview";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="bg-[var(--primary)] text-[var(--text)]">
         <Hero />
         <About />
+        <Preview />
         <Download />
         <Footer />
       </div>
