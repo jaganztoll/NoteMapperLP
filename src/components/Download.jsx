@@ -23,13 +23,13 @@ function Download() {
                      sm:w-46 sm:h-46
                      md:w-48 md:h-48 
                      lg:w-64 lg:h-64 
-                     mb-6 md:mb-0 rounded-4xl"
+                     mb-6 md:mb-0 rounded-4xl select-none"
         />
 
         {/* Text & Buttons */}
         <div
           className="md:ml-12 
-                     flex flex-col justify-start items-center md:items-start"
+                     flex flex-col justify-start items-center md:items-start selection:bg-[var(--accent)]"
         >
           <h2
             className="text-xl
@@ -52,7 +52,7 @@ function Download() {
                          md:w-50 md:h-18 md:text-lg 
                          px-4 py-2 sm:px-6 sm:py-4 
                          rounded-md hover:opacity-90 transition 
-                         flex items-center justify-center"
+                         flex items-center justify-center select-none"
             >
               <BiLogoPlayStore className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mr-2" />
               Google Play
@@ -67,7 +67,7 @@ function Download() {
                          md:w-50 md:h-18 md:text-lg 
                          px-4 py-2 sm:px-6 sm:py-4 
                          rounded-md hover:opacity-90 transition 
-                         flex items-center justify-center"
+                         flex items-center justify-center select-none"
             >
               <FaApple className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mr-2" />
               App Store

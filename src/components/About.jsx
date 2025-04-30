@@ -7,7 +7,8 @@ function About() {
       className="relative z-20 mt-[100vh] min-h-screen 
                  flex flex-col justify-center items-center text-center 
                  px-4 
-                 bg-[var(--primary)] text-[var(--text)] font-inter"
+                 bg-[var(--primary)] text-[var(--text)] font-inter
+                 selection:bg-[var(--accent)]"
     >
       <h2
         className="text-4xl md:text-6xl 

@@ -22,7 +22,8 @@ function Hero() {
         <div
           className="md:w-1/2 
                      flex flex-col justify-center items-center md:items-start 
-                     text-center md:text-left"
+                     text-center md:text-left
+                     selection:bg-[var(--primary)]"
         >
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-2 sm:mb-8">
             Explore the World
@@ -42,7 +43,7 @@ function Hero() {
                          md:w-50 md:h-18 md:text-lg 
                          px-4 py-2 sm:px-6 sm:py-4 
                          rounded-md hover:opacity-90 transition 
-                         flex items-center justify-center"
+                         flex items-center justify-center select-none"
             >
               <BiLogoPlayStore className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mr-2" />
               Google Play
@@ -57,7 +58,7 @@ function Hero() {
                          md:w-50 md:h-18 md:text-lg 
                          px-4 py-2 sm:px-6 sm:py-4 
                          rounded-md hover:opacity-90 transition 
-                         flex items-center justify-center"
+                         flex items-center justify-center select-none"
             >
               <FaApple className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 mr-2" />
               App Store
@@ -72,7 +73,7 @@ function Hero() {
             alt="Device"
             className="w-48 sm:w-64 h-96 sm:h-128 md:w-80 md:h-160 
                        transform sm:rotate-[10deg] md:rotate-[15deg] 
-                       transition-all duration-500"
+                       transition-all duration-500 select-none"
           />
         </div>
       </div>

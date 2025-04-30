@@ -33,14 +33,14 @@ function Navbar() {
                    px-6 md:px-10 lg:px-20"
       >
         {/* Logo */}
-        <div>
+        <div className="select-none">
           <Link
             to="hero"
             smooth={true}
             duration={500}
             className="cursor-pointer flex items-center space-x-2"
           >
-            <img src={Logo} alt="Logo" className="h-10 w-auto select-none" />
+            <img src={Logo} alt="Logo" className="h-10 w-auto" />
             <span className="text-2xl font-bold text-[var(--text)] font-inter">
               NoteMapper
             </span>
@@ -48,7 +48,7 @@ function Navbar() {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex space-x-6 items-center font-inter">
+        <div className="hidden md:flex space-x-6 items-center font-inter select-none">
           <Link
             to="about"
             smooth={true}

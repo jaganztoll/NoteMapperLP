@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa6";
 function Footer() {
   return (
     <footer
-      className="relative z-20 bg-[var(--primary)] text-[var(--text)] font-inter py-6"
+      className="relative z-20 bg-[var(--primary)] text-[var(--text)] font-inter py-6 selection:bg-[var(--accent)]"
       id="footer"
     >
       <div className="text-center">
