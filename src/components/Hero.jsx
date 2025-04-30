@@ -32,7 +32,7 @@ function Hero() {
             with NoteMapper
           </p>
 
-          <div className="flex flex-row gap-6 mb-6 sm:mb-8">
+          <div className="flex flex-row gap-6 mb-8 sm:mb-8">
             {/* Google Play Button */}
             <button
               className="bg-[var(--text)] text-[var(--primary)] 
@@ -66,7 +66,7 @@ function Hero() {
         </div>
 
         {/* Bildbereich */}
-        <div className="md:w-1/2 flex justify-center items-center mb-6 md:mb-0">
+        <div className="md:w-1/2 flex justify-center items-center mb-8 md:mb-2">
           <img
             src={Device}
             alt="Device"
