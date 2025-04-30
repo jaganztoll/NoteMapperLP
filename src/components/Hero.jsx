@@ -16,7 +16,7 @@ function Hero() {
       <div
         className="flex flex-col md:flex-row justify-center items-center 
                    w-full h-full max-w-screen-xl mx-auto lg:px-20 
-                   mt-4 sm:mt-8"
+                   mt-2 sm:mt-8"
       >
         {/* Textbereich */}
         <div
@@ -28,7 +28,7 @@ function Hero() {
             Explore the World
           </h1>
 
-          <p className="text-xl sm:text-2xl md:text-3xl mb-6 sm:mb-12">
+          <p className="text-xl sm:text-2xl md:text-3xl mb-8 sm:mb-12">
             with NoteMapper
           </p>
 
