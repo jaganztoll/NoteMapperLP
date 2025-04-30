@@ -7,7 +7,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="fixed top-0 left-0 w-full min-h-9/10 z-10 
+      className="fixed top-0 left-0 w-full min-h-screen z-10 
                  flex flex-col justify-center items-center text-center 
                  px-4 sm:px-6 md:px-8 
                  bg-[var(--accent)] text-[var(--text)] font-inter 
