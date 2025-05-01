@@ -12,9 +12,9 @@ function About() {
     >
       <h2
         className="text-2xl sm:text-4xl md:text-6xl 
-                   max-w-4xl mb-12 sm:mb-8 font-semibold"
+                   max-w-4xl mb-12 sm:mb-10 md:mb-8 font-semibold"
       >
-        YOUR MIND. YOUR MAP. YOUR MEMORIES.{" "}
+        YOUR MIND. YOUR MAP. YOUR MEMORIES.
       </h2>
 
       <p

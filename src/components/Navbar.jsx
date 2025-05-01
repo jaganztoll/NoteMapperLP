@@ -58,6 +58,14 @@ function Navbar() {
             About
           </Link>
           <Link
+            to="preview"
+            smooth={true}
+            duration={500}
+            className="hover:underline cursor-pointer"
+          >
+            Preview
+          </Link>
+          <Link
             to="download"
             smooth={true}
             duration={500}
