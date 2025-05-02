@@ -1,5 +1,8 @@
 import React from "react";
-import Test from "../assets/test.png";
+import S1 from "../assets/s1.png";
+import S2 from "../assets/s2.png";
+import S3 from "../assets/s3.png";
+import S4 from "../assets/s4.png";
 
 function Preview() {
   return (
@@ -14,7 +17,7 @@ function Preview() {
       >
         <div className="flex overflow-x-auto flex-nowrap space-x-6 px-6 sm:px-8 md:px-10 lg:px-16 select-none">
           <img
-            src={Test}
+            src={S1}
             alt="Test"
             className="w-45 h-81 
                        sm:w-47 sm:h-84 
@@ -23,7 +26,7 @@ function Preview() {
                        mb-6 md:mb-0 rounded-2xl"
           />
           <img
-            src={Test}
+            src={S2}
             alt="Test"
             className="w-45 h-81 
                        sm:w-47 sm:h-84 
@@ -32,7 +35,7 @@ function Preview() {
                        mb-6 md:mb-0 rounded-2xl"
           />
           <img
-            src={Test}
+            src={S3}
             alt="Test"
             className="w-45 h-81 
                        sm:w-47 sm:h-84 
@@ -41,7 +44,7 @@ function Preview() {
                        mb-6 md:mb-0 rounded-2xl"
           />
           <img
-            src={Test}
+            src={S4}
             alt="Test"
             className="w-45 h-81 
                        sm:w-47 sm:h-84 
