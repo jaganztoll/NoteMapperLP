@@ -7,7 +7,7 @@ function Download() {
   return (
     <section
       id="download"
-      className="relative z-20 px-4 py-32 scroll-mt-24
+      className="relative z-20 px-4 py-36
                  bg-[var(--primary)] text-[var(--text)] font-inter"
     >
       <div

@@ -4,7 +4,7 @@ function About() {
   return (
     <section
       id="about"
-      className="relative z-20 mt-[95vh] py-32 scroll-mt-24
+      className="relative z-20 mt-[95vh] pt-24 scroll-mt-24
                  flex flex-col justify-center items-center text-center 
                  px-4 
                  bg-[var(--primary)] text-[var(--text)] font-inter
@@ -12,7 +12,8 @@ function About() {
     >
       <h2
         className="text-2xl sm:text-4xl md:text-6xl 
-                   max-w-4xl mb-12 sm:mb-10 md:mb-8 font-semibold"
+                   max-w-4xl mb-12 sm:mb-10 md:mb-8 
+                   font-semibold"
       >
         YOUR MIND. YOUR MAP. YOUR MEMORIES.
       </h2>
