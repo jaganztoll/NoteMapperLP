@@ -113,13 +113,13 @@ function Navbar() {
             About
           </Link>
           <Link
-            to="review"
+            to="preview"
             smooth={true}
             duration={500}
             className="hover:underline cursor-pointer"
             onClick={() => setMenuOpen(false)}
           >
-            Review
+            Preview
           </Link>
           <Link
             to="download"
