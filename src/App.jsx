@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Testimonials from "./components/Testimonials";
 import Download from "./components/Download";
 import Footer from "./components/Footer";
 
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <About />
         <Preview />
+        <Testimonials />
         <Download />
         <Footer />
       </div>

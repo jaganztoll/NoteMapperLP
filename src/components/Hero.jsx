@@ -30,7 +30,8 @@ function Hero() {
           </h1>
 
           <p className="text-xl sm:text-2xl md:text-3xl mb-8 sm:mb-12">
-            with NoteMapper
+            Connect your notes with places and experience your memories visually
+            with NoteMapper.
           </p>
 
           <div className="flex flex-row gap-6 mb-8 sm:mb-8">

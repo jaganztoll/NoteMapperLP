@@ -8,7 +8,7 @@ function Preview() {
   return (
     <section
       id="preview"
-      className="relative z-20 px-4 pt-24 scroll-mt-12 
+      className="relative z-20 px-4 pt-24 py-36 scroll-mt-12 
                  bg-[var(--primary)] text-[var(--text)]"
     >
       <div
@@ -16,7 +16,7 @@ function Preview() {
                    w-full h-full max-w-screen-2xl mx-auto lg:px-20"
       >
         <div
-          className="flex overflow-x-auto flex-nowrap space-x-6 
+          className="flex overflow-x-auto flex-nowrap space-x-4 
                      px-6 sm:px-8 md:px-10 lg:px-16 select-none"
         >
           <img
@@ -25,7 +25,7 @@ function Preview() {
             className="w-45 h-81 
                        sm:w-47 sm:h-84 
                        md:w-48 md:h-87  
-                       lg:w-50 lg:h-90 
+                       lg:w-58 lg:h-105 
                        mb-6 md:mb-0 rounded-2xl"
           />
           <img
@@ -34,7 +34,7 @@ function Preview() {
             className="w-45 h-81 
                        sm:w-47 sm:h-84 
                        md:w-48 md:h-87  
-                       lg:w-50 lg:h-90 
+                       lg:w-58 lg:h-105 
                        mb-6 md:mb-0 rounded-2xl"
           />
           <img
@@ -43,7 +43,7 @@ function Preview() {
             className="w-45 h-81 
                        sm:w-47 sm:h-84 
                        md:w-48 md:h-87  
-                       lg:w-50 lg:h-90 
+                       lg:w-58 lg:h-105 
                        mb-6 md:mb-0 rounded-2xl"
           />
           <img
@@ -52,7 +52,7 @@ function Preview() {
             className="w-45 h-81 
                        sm:w-47 sm:h-84 
                        md:w-48 md:h-87  
-                       lg:w-50 lg:h-90 
+                       lg:w-58 lg:h-105 
                        mb-6 md:mb-0 rounded-2xl"
           />
         </div>
