@@ -11,7 +11,7 @@ function Download() {
                  bg-[var(--primary)] text-[var(--text)] font-inter"
     >
       <div
-        className="max-w-4xl mx-auto 
+        className="max-w-xl mx-auto 
                    flex flex-col md:flex-row 
                    items-center justify-center"
       >
@@ -22,7 +22,7 @@ function Download() {
           className="w-32 h-32 
                      sm:w-46 sm:h-46
                      md:w-48 md:h-48 
-                     lg:w-64 lg:h-64 
+                     lg:w-54 lg:h-54 
                      mb-6 md:mb-0 rounded-4xl select-none"
         />
 
