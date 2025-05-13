@@ -13,12 +13,33 @@ function Footer() {
       id="footer"
     >
       <div className="text-center">
-        <FaXTwitter className="inline w-5 h-5 mr-4 mb-4 hover:text-[var(--primary)] cursor-pointer" />
-        <FaFacebookF className="inline w-5 h-5 mr-4 mb-4 hover:text-[var(--primary)] cursor-pointer" />
-        <FaInstagram className="inline w-5 h-5 mr-4 mb-4 hover:text-[var(--primary)] cursor-pointer" />
-        <FaEnvelope className="inline w-5 h-5 mb-4 hover:text-[var(--primary)] cursor-pointer" />
-
-        <p>© {new Date().getFullYear()} NoteMapper, Julian Gruber</p>
+        <FaXTwitter
+          className="inline w-5 h-5 mr-4 mb-4 cursor-pointer 
+                     hover:text-[var(--primary)] transition-colors duration-300"
+        />
+        <FaFacebookF
+          className="inline w-5 h-5 mr-4 mb-4 cursor-pointer 
+                     hover:text-[var(--primary)] transition-colors duration-300"
+        />
+        <FaInstagram
+          className="inline w-5 h-5 mr-4 mb-4 cursor-pointer 
+                     hover:text-[var(--primary)] transition-colors duration-300"
+        />
+        <FaEnvelope
+          className="inline w-5 h-5 mb-4 cursor-pointer 
+                     hover:text-[var(--primary)] transition-colors duration-300"
+        />
+        <p>
+          © {new Date().getFullYear()} NoteMapper,{" "}
+          <a
+            href="https://juliangruber.netlify.app"
+            className="hover:text-[var(--primary)] transistion"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Julian Gruber
+          </a>
+        </p>
       </div>
     </footer>
   );
