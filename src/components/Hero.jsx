@@ -7,15 +7,15 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="fixed top-0 left-0 w-full min-h-screen z-10 
+      className="top-0 left-0 w-full min-h-screen z-10 
                  flex flex-col justify-center items-center text-center 
-                 px-4 sm:px-6 md:px-8 
+                 px-4 sm:px-8 md:px-8 
                  bg-[var(--accent)] text-[var(--text)] font-inter 
                  overflow-hidden"
     >
       <div
-        className="flex flex-col md:flex-row justify-center items-center 
-                   w-full h-full max-w-screen-xl mx-auto lg:px-20 
+        className="fixed flex flex-col md:flex-row justify-center items-center 
+                   w-full max-w-screen-xl mx-auto lg:px-20 
                    mt-2 sm:mt-8"
       >
         {/* Textbereich */}

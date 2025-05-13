@@ -4,7 +4,7 @@ function About() {
   return (
     <section
       id="about"
-      className="relative z-20 mt-[95vh] pt-24 scroll-mt-24
+      className="relative z-20 pt-24 scroll-mt-24
                  flex flex-col justify-center items-center text-center 
                  px-4 
                  bg-[var(--primary)] text-[var(--text)] font-inter

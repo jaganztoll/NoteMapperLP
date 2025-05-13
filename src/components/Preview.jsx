@@ -15,7 +15,10 @@ function Preview() {
         className="flex justify-center items-center 
                    w-full h-full max-w-screen-2xl mx-auto lg:px-20"
       >
-        <div className="flex overflow-x-auto flex-nowrap space-x-6 px-6 sm:px-8 md:px-10 lg:px-16 select-none">
+        <div
+          className="flex overflow-x-auto flex-nowrap space-x-6 
+                     px-6 sm:px-8 md:px-10 lg:px-16 select-none"
+        >
           <img
             src={S1}
             alt="Test"

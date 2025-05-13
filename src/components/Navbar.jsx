@@ -46,7 +46,6 @@ function Navbar() {
             </span>
           </Link>
         </div>
-
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-6 items-center font-inter select-none">
           <Link
@@ -82,7 +81,6 @@ function Navbar() {
             Contact
           </Link>
         </div>
-
         {/* Burger Icon */}
         <div className="md:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)}>
