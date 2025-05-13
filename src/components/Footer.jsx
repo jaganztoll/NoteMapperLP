@@ -33,7 +33,7 @@ function Footer() {
           © {new Date().getFullYear()} NoteMapper,{" "}
           <a
             href="https://juliangruber.netlify.app"
-            className="hover:text-[var(--primary)] transistion"
+            className="hover:text-[var(--primary)] transistion-colors duration-300"
             target="_blank"
             rel="noopener noreferrer"
           >
