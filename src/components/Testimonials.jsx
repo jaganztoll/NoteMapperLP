@@ -110,7 +110,10 @@ function Testimonials() {
                            select-none"
               />
             </a>
-            <span className="text-sm sm:text-base lg:text-xl flex items-center">
+            <span
+              className="text-sm sm:text-lg lg:text-xl 
+                         flex items-center"
+            >
               {testimonials[activeIndex].name}
             </span>
           </p>
