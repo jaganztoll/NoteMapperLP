@@ -72,7 +72,15 @@ function Testimonials() {
                    w-full h-full max-w-screen-2xl mx-auto lg:px-20 relative z-20"
       >
         <div className="w-full transition-all duration-700 ease-in-out">
-          <blockquote className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-normal">
+          <blockquote
+            className="text-center 
+                       text-2xl 
+                       sm:text-3xl 
+                       md:text-4xl 
+                       lg:text-5xl 
+                       leading-normal
+                       sm:px-8 md:px-16"
+          >
             “{testimonials[activeIndex].quote}”
           </blockquote>
           <p
