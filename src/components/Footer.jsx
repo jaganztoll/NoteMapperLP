@@ -14,19 +14,19 @@ function Footer() {
     >
       <div className="text-center">
         <FaXTwitter
-          className="inline w-5 h-5 mr-4 mb-4 cursor-pointer 
+          className="inline w-6 h-6 mr-4 mb-4 cursor-pointer 
                      hover:text-[var(--primary)] transition-colors duration-300"
         />
         <FaFacebookF
-          className="inline w-5 h-5 mr-4 mb-4 cursor-pointer 
+          className="inline w-6 h-6 mr-4 mb-4 cursor-pointer 
                      hover:text-[var(--primary)] transition-colors duration-300"
         />
         <FaInstagram
-          className="inline w-5 h-5 mr-4 mb-4 cursor-pointer 
+          className="inline w-6 h-6 mr-4 mb-4 cursor-pointer 
                      hover:text-[var(--primary)] transition-colors duration-300"
         />
         <FaEnvelope
-          className="inline w-5 h-5 mb-4 cursor-pointer 
+          className="inline w-6 h-6 mb-4 cursor-pointer 
                      hover:text-[var(--primary)] transition-colors duration-300"
         />
         <p>
