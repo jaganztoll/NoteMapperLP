@@ -73,7 +73,7 @@ function Testimonials() {
       >
         <div
           className="w-full transition-all duration-700 ease-in-out 
-                     sm:px-8 md:px-16"
+                     px-4 sm:px-8 md:px-16"
         >
           <blockquote
             className="text-center 
