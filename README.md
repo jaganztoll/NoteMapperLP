@@ -1,3 +1,5 @@
+![Beispielbild aus assets](src/assets/readme.png)
+
 # NoteMapper LP
 
 NoteMapper LP is a modern and responsive landing page for NoteMapper — an app that lets users create and manage notes based on their current location.
