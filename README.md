@@ -1,4 +1,4 @@
-![Beispielbild aus assets](src/assets/readme.png)
+![Home](src/assets/readme.png)
 
 # NoteMapper LP
 
