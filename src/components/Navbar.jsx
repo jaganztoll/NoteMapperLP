@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import Logo from "../assets/notemapperdark.png";
 import { HiBars3, HiXMark } from "react-icons/hi2";
